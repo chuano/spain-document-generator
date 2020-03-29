@@ -3,6 +3,7 @@
     "description": "Spanish CIF, NIF and NIE random generator.",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Chuano Puchol",
