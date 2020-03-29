@@ -1,6 +1,6 @@
 {
     "name": "chuano/spain-document-generator",
-    "description": "Generador aleatorio de números dni, cif, nie",
+    "description": "Spanish CIF, NIF and NIE random generator.",
     "type": "library",
     "license": "MIT",
     "authors": [
