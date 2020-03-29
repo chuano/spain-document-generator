@@ -9,10 +9,10 @@ use Chuano\Util\SpainDocumentGenerator\Helper\NifGenerator;
 
 class SpainDocumentGenerator
 {
-    public static function cif(?string $separator = ''): string
+    public static function cif(?string $type = null, ?string $separator = ''): string
     {
         $cifGenerator = new CifGenerator();
-        return $cifGenerator->generate($separator);
+        return $cifGenerator->generate($type, $separator);
     }
 
     public static function nie(?string $separator = ''): string
