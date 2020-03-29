@@ -1,0 +1,29 @@
+{
+    "name": "chuano/spain-document-generator",
+    "description": "Generador aleatorio de números dni, cif, nie",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chuano Puchol",
+            "email": "chuano@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Chuano\\Util\\SpainDocumentGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
