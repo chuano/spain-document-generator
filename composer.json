@@ -2,6 +2,7 @@
     "name": "chuano/spain-document-generator",
     "description": "Generador aleatorio de números dni, cif, nie",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Chuano Puchol",
