@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Chuano\Util;
+namespace Chuano\Util\SpainDocumentGenerator;
 
 use Chuano\Util\SpainDocumentGenerator\Helper\CifGenerator;
 use Chuano\Util\SpainDocumentGenerator\Helper\NieGenerator;
