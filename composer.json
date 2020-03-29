@@ -9,6 +9,9 @@
         }
     ],
     "minimum-stability": "stable",
+    "scripts": {
+        "test": "vendor/bin/phpunit -c phpunit.xml.dist"
+    },
     "autoload": {
         "psr-4": {
             "Chuano\\Util\\SpainDocumentGenerator\\": "src/"
